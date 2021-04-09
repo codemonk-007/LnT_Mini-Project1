@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI]() TBD| [![Static Cppcheck]()TBD [![Dynamic Valgrind]()|TBD [![Unity - Unit Testing]()|TBD [![Git Inspector]()
+[C/C++ CI] TBD| 1.[Static Cppcheck]TBD 2.[Dynamic Valgrind]TBD| [Unity - Unit Testing] TBD| [Git Inspector] TBD|
 
 
 ## Folder Structure
