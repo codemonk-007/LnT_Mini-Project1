@@ -86,6 +86,7 @@ SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 | HL1 | Ability to add New UDHAAR record |  IMPLEMENTED | 
 | HL2 | Ability to view all UDHAAR records | IMPLEMENTED | 
 | HL3 | Ability to update existing records | IMPLEMENTED | 
+| HL1 | Ability to Save all records in file system| IMPLEMENTED | 
 | HL4 | Ability to settle UDHAAR transaction with 2nd party | FUTURE | 
 
 ##  Low level Requirements:
