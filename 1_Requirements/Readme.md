@@ -37,7 +37,7 @@ Currently in the market, there are applications which satisfy the proposed needs
    
    
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+
 SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 
 ### STRENGTH  
@@ -81,9 +81,12 @@ SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
-
+| ----- | ----- | ------- | ---------|
+| HL1 | Ability to add New UDHAAR record | Techincal | IMPLEMENTED | 
+| HL2 | Ability to view all UDHAAR records | Techincal | IMPLEMENTED | 
+| HL3 | Ability to update existing records | Techincal | IMPLEMENTED | 
+| HL4 | Ability to settle UDHAAR transaction with 2nd party | Techincal | FUTURE | 
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
