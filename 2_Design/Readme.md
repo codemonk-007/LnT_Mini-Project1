@@ -4,7 +4,7 @@
 
 ### Architecure: 
 ![Architecture Diagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/architecture.jpg)
-![HighLevelBehaviouralDiagram](Link to Pic)
+![HighLevelBehaviouralDiagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/HLB.png)
 
 ## Low Level Design 
 
