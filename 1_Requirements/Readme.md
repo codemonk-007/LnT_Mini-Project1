@@ -9,16 +9,22 @@ Thus the aim of this project is to create a book keeping application, thus the n
 Currently in the market, there are applications which satisfy the proposed needs. There is a high demand of book keeping/ledger type applications as the working population of India is increasing day by day. Also the fast paced lives of people has led to a deamnd in fast and efficient book keeping applications.
 ### Advantages :
 1.It satisfies fast book keeping requirement of the user and helps to get away with the monotonous task of manual ledgering.
+
 2.All records of transactions cannot be tampered  as a digital key can always be applied for security.
+
 3.Since all records are digitally stored, acession of data can become fast and easy and flexible. 
 
 ## Cost and Features
 ![](Link to Pic)
 --> In the early 1900s , IBM had invented the punching machine mechanism for accounting purpose. By the 1920's this mechanism was optimised to process the cards efficiently in large batches. 
+
 -->Then in the mid 1900's , from 1950s-60's, UniVAC Became quite famous as General Electric purchased it for paying factroy payroll.But the size of the machine was humnogous and would cost nearly $7million at today's date.  
+
 -->Towards the erly 2000's, when Quickbook was launched, it domniated the market of book keeping. Today around  4.5 million companies use quickbook and the estimated cost of the software is $300.
+
 -->In todays time, with the indcution of Artificial Intelligence, machine learning and ubiqutous software tools, the task of book keeping has taken leaps from when it had inintiated and its cost has also substantially decresed to practically free softwares being available. 
--- Content 
+
+
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
