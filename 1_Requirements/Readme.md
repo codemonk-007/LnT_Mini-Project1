@@ -83,10 +83,10 @@ SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 ## High Level Requirements:
 | ID | Description | Status (Implemented/Future)|
 | ----- | ----- | ------- | ---------|
-| HL1 | Ability to add New UDHAAR record | Techincal | IMPLEMENTED | 
-| HL2 | Ability to view all UDHAAR records | Techincal | IMPLEMENTED | 
-| HL3 | Ability to update existing records | Techincal | IMPLEMENTED | 
-| HL4 | Ability to settle UDHAAR transaction with 2nd party | Techincal | FUTURE | 
+| HL1 | Ability to add New UDHAAR record |  IMPLEMENTED | 
+| HL2 | Ability to view all UDHAAR records | IMPLEMENTED | 
+| HL3 | Ability to update existing records | IMPLEMENTED | 
+| HL4 | Ability to settle UDHAAR transaction with 2nd party | FUTURE | 
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
