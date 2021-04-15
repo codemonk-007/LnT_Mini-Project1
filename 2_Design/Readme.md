@@ -2,7 +2,7 @@
 
 ## High Level Design 
 
-Architecure: 
+### Architecure: 
 ![Architecture Diagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/architecture.jpg)
 ![HighLevelBehaviouralDiagram](Link to Pic)
 
