@@ -27,9 +27,40 @@ Currently in the market, there are applications which satisfy the proposed needs
 
 
 ## Defining Our System
-    -- TBD
+   In the implemetation of the system, the design is very simple and efficient. The user has 3 operations to perform:
+   
+   1. Add a new UDHAAR transaction : When the user creates branch of UDHAAR with new 2nd party, this function provides the functionality to enter UDhaar Information.
+   
+   2. Update an existing UDHAAR transaction : Using this function the User can update the data of loan taken/ Given at any point of time to or from 2nd party.
+   
+   3. View all UDHAAR data: This operation allows the user to view a tabular representaion of all the UDHAAR data.
+   
+   
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
+SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
+
+### STRENGTH  
+    1. Strong Record keeping functionality
+    2. All data available in one spot
+    3. Automation of manual processes
+    4. Mimics existing systems, thus availabilty of feature refernces
+### WEAKNESS
+    1. Limited functionality in the current system.
+    2. Need for more automation and modularization
+    3. Limited to No graphical user interface
+    4. File based so locally acessible only (currently)
+    5. Since similar to Database transctional process, no implementaion of ACID properties.
+### OPPORTUNITIES
+    1. Gaining KNowledge of the existing sytems and functionalities
+    2. Skill impromvement and implementaion of better development practices
+    3. Getting to know more about market requirment for the proposed problem
+    4. Open sourceing
+### THREATS 
+    1. Not secure from data corruption
+    2. Malpractice can tamper data
+    3. System creash can erase all data
+    4. If secured, removing access by mistake and destroy accessibilty of file system
 
 # 4W&#39;s and 1&#39;H
 
