@@ -5,11 +5,11 @@
 ### Architecure: 
 ![Architecture Diagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/architecture.jpg)
 
-### Logic Flow
-![HighLevelBehaviouralDiagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/HLBD.png)
+### Use Case
+![USE CASE](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/HLBD.png)
 
 ## Low Level Design 
 
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
+### LOGIC FLOW
+![HighLevelBehaviouralDiagram](https://github.com/codemonk-007/LnT_Mini-Project1/blob/main/2_Design/HLBD.png)
 ![FeaturesBehaviouralDiagram](Link to Pic)
