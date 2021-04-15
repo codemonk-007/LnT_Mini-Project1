@@ -65,24 +65,19 @@ SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-
-**TBD**
+   All individuals bachelors and working professionals for personal use. Also small size shops which currently have manual record keeping sytems. 
 
 ## What:
-
-**TBD**
-
+   Automated digital UDHAAR record keeping system to keep track of transcations easily and efficiently. Removes manual labour and handwritten complexitiies.
+   
 ## When:
-
-**TBD**
+   Problem began gaining recognition when demand for efficient and speedy record keeping increased with exponential increase in working professionals. Also manual                                                            book keeping demanded shift to a more efficient and optimized way of processing data, possibly digital.
 
 ## Where:
-
-**TBD**
+   Applicable possibly in every household, personal financial systems and small shops not only in INDIA and around the world.
 
 ## How:
-
-**TBD**
+   Manual book keeping may be time consuming and at some point with large amount of records me become ineffective. Also keeping mere notes of transction data can lead to inconsistencies and major problems like comeplete loss or misplacement of record data.
 
 # Detail requirements
 ## High Level Requirements:
