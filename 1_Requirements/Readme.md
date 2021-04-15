@@ -97,9 +97,9 @@ SWOT - STRENGTH WEAKNESS OPPORTUNITES THREATS
 | LL3 | Search for target contact in the file system for crosschecking existant and non existant 2nd party UDHAAR data  | HL1,HL3 |IMPLEMENTED | 
 | LL4| To update 2nd party UDHAAR data, prompt user to enter contact number (since it is unique identifier).| HL3 |IMPLEMENTED | 
 | LL5 | If U2nd party UDHAAR data does not exist in the file data, the user is automatically directed to create new UDHAAR transaction functionality | HL1,HL3|IMPLEMENTED |
-| LL6 | On any kind of update in current file state, save data immidiately | HL1,HL3,HL4 |IMPLEMENTED | 
+| LL6 | On any kind of update in current file state, save data immidiately | HL1,HL3,HL4,HL5 |IMPLEMENTED | 
 | LL7 | Automatically generate time stap using current system time to mark time of change in any kind of data wrt to 2nd party transactee |HL1,HL3,HL4|IMPLEMENTED| 
-| LL8 | Automatically calculate total transaction state of user using loan_given and loan_taken amount | HL1,HL3,HL4 |IMPLEMENTED | 
+| LL8 | Automatically calculate total transaction state of user using loan_given and loan_taken amount | HL1,HL3,HL4,HL5 |IMPLEMENTED | 
  LL9 | Display user data in tabular form with current transaction state in red if user is in debt and in green if user has credit money or no UDHAAR on 2nd party | HL2|IMPLEMENTED | 
 | LL10| If user wishes to update any aspect of 2md party information other than money related, prompt an option | HL3,HL4 |FUTURE | 
 
