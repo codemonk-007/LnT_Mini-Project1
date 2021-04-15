@@ -39,10 +39,6 @@ SFID  |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases
 3. User name could not be read from file if space existed. Broke name into first name and last name data fields.
 4. Updated Time stamp's structure to multiple fields in order to read from file effortlessly as strings with space s=destroyed formatted reading from file.
 5. File data was not being searched properly. Existing records were displayed as non existant. Was a file pointer issue. Used fseek() to position file pointer to top of file after on complete read operation on file.
-6. ...
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+
