@@ -16,6 +16,7 @@ Currently in the market, there are applications which satisfy the proposed needs
 
 ## Cost and Features
 ![](https://quickbooks.intuit.com/content/dam/intuit/quickbooks/msm/sites/en/in/homepage/run_business_in_cloud.svg)
+
 --> In the early 1900s , IBM had invented the punching machine mechanism for accounting purpose. By the 1920's this mechanism was optimised to process the cards efficiently in large batches. 
 
 -->Then in the mid 1900's , from 1950s-60's, UniVAC Became quite famous as General Electric purchased it for paying factroy payroll.But the size of the machine was humnogous and would cost nearly $7million at today's date.  
