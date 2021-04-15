@@ -37,7 +37,7 @@ SFID  |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases
 1. Subsantial Segment Faults while reading file data.(Still fixing)
 2. File write format was being destroyed in each update peration.Fixed it by using fsacnf while helps to read formatted data.
 3. User name could not be read from file if space existed. Broke name into first name and last name data fields.
-4. Updated Time stamp's structure to multiple fields in order to read from file effortlessly as strings with space s=destroyed formatted reading from file.
+4. Updated Time stamp's structure to multiple fields in order to read from file effortlessly as strings with space destroyed formatted reading from file.
 5. File data was not being searched properly. Existing records were displayed as non existant. Was a file pointer issue. Used fseek() to position file pointer to top of file after on complete read operation on file.
 
 
