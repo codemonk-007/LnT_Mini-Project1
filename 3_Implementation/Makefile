@@ -1,4 +1,5 @@
 PROJ_NAME = udhaar
+TEST_NAME = test_udhaar
 
 ifdef OS
 	RM = del
@@ -15,7 +16,7 @@ endif
 .PHONY: run clean test doc all
 
 all:
-	gcc -I inc inc/udhaar.h src/udhaar.c project_main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+		gcc -I inc inc/udhaar.h src/udhaar.c project_main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -23,9 +24,13 @@ run:
 cppcheck:
 	cppcheck --enable=all --suppress=missingIncludeSystem -I inc inc/udhaar.h src/udhaar.c project_main.c
 
+test:
+	gcc -I inc -I unity  inc/udhaar.h src/udhaar.c test/test_udhaar.c unity/unity.c -o-o $(call FixPath,$(TEST_NAME).$(EXEC))
+
 valgrind:
-	valgrind ./$(PROJ_NAME).$(EXEC)
+	valgrind ./$(TEST_NAME).$(EXEC)
 
 clean:
 	$(RM) *.out
+	
 
