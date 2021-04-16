@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[C/C++ CI]| [![Static Code - Cppcheck](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml) 2.[Dynamic Valgrind]TBD| [Unity - Unit Testing] TBD| [![Git Inspector](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml)|
+[![C/C++ CI](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/c-cpp.yml)| [![Static Code - Cppcheck](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml) 2.[Dynamic Valgrind]TBD| [Unity - Unit Testing] TBD| [![Git Inspector](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml)|
 
 
 ## Folder Structure
