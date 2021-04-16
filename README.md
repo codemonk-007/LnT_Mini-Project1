@@ -1,6 +1,5 @@
 # SDLC Activity Based Learning
-###
-THE UDHAAR APP
+### THE UDHAAR APP
 <img width="191" alt="image" src="https://user-images.githubusercontent.com/81297719/115018106-1441a080-9ed5-11eb-89bf-ec31c3232cb0.png">
 
 
