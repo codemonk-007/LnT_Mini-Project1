@@ -25,7 +25,7 @@ cppcheck:
 	cppcheck --enable=all --suppress=missingIncludeSystem -I inc inc/udhaar.h src/udhaar.c project_main.c
 
 test:
-	gcc -I inc -I unity  inc/udhaar.h src/udhaar.c test/test_udhaar.c unity/unity.c -o-o $(call FixPath,$(TEST_NAME).$(EXEC))
+	gcc -I inc -I unity  inc/udhaar.h src/udhaar.c test/test_udhaar.c unity/unity.c -o $(call FixPath,$(TEST_NAME).$(EXEC))
 
 valgrind:
 	valgrind ./$(TEST_NAME).$(EXEC)
