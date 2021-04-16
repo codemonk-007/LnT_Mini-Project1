@@ -16,11 +16,7 @@ jobs:
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: change directory
-      run : cd 3_Implementation
-    - name: run code
-      run : gcc -I inc inc/udhaar.h src/udhaar.c project_main.c -o op.out
-    - name: check heap
-      run: valgrind 3_Implementation/op.out < input.text
-    - name: clear
-      run: rm op.out
+    - name: make all
+      run : make -C 3_Implementation / all
+    - name : Valgrind
+      run:    make -C 3_Implementation/ valgrind
