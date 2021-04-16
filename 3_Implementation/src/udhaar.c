@@ -1,6 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<time.h>
+#include<string.h>
+#include<limits.h>
+#include<stdbool.h>
 #include "udhaar.h"
 
-struct transaction *trans_dat = NULL;
+struct transaction *trans_dat = NULL ;
 int file_size = 0; 
 
 int read_file(){
@@ -9,14 +16,14 @@ int read_file(){
     if(df == NULL) return 0;
 
     struct transaction all_trans;
-    int count=0,i=0,pos=-1;char c;
+    int count=0,i=0;char c;
     while ((c = fgetc(df))!=EOF)if(c=='\n')count++;
     fseek(df,0,SEEK_SET);
     file_size =count;
 
     trans_dat = (struct transaction*)malloc(file_size*sizeof(struct transaction));
 
-     while(fscanf(df,"%s %s %lld %lf %lf %lf %d %d %d %d %d %d",all_trans.fname,
+     while(fscanf(df,"%39s %39s %lld %lf %lf %lf %d %d %d %d %d %d",all_trans.fname,
     all_trans.lname,
         &all_trans.contact,
         &all_trans.loan_given,
@@ -207,16 +214,16 @@ int update_record(ll target_contact){
         if(option == 1){
             double t;
             printf("\nCurrent Loan given amount = %lf\n",trans_dat[pos].loan_given);
-            printf("\nUpdate Loan_Given. Enter New Value : ");
+            printf("\nUpdate Loan_Given. Enter New Amount Given to %s %s:",trans_dat[pos].fname,trans_dat[pos].lname);
             inputdb(t);
-            trans_dat[pos].loan_given = t;
+            trans_dat[pos].loan_given += t;
         }
         else if (option == 2){
             double t;
             printf("\nCurrent Loan given amount = %lf\n",trans_dat[pos].loan_taken);
-            printf("\nUpdate Loan_Taken. Enter New Value : ");
+            printf("\nUpdate Loan_Taken. Enter New Amount Taken from %s %s : ",trans_dat[pos].fname,trans_dat[pos].lname);
             inputdb(t);
-            trans_dat[pos].loan_taken = t;
+            trans_dat[pos].loan_taken += t;
             }
     }
     else{
