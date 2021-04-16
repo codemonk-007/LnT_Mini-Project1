@@ -1,0 +1,24 @@
+name: Dynamic Memory Valgrind
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: apt install dependency
+      run: |
+        sudo apt-get -y install valgrind
+        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
+    - name: run code
+      run : gcc -I inc inc/udhaar.h src/udhaar.c project_main.c -o op.out
+    - name: check heap
+      run: valgrind 3_Implementation/op.out < input.text
+    - name: clear
+      run: rm op.out
