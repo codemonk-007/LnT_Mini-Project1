@@ -19,7 +19,7 @@ Folder             | Description
 
 SFID  |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-258695 | Jay Singh  | F1,F2,F3,F4,F5,F6,F7    | 5    | 4 |0  |0   
+258695 | Jay Singh  | F1,F2,F3,F4,F5,F6,F7    | 5    | 4 |9 |6
    
 
 | Feature Id | Feature |
