@@ -2,7 +2,7 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
+Build | Code Quality | Unity | Git Inspector
 ------|----------|-------|--------------
 [![C/C++ CI](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/c-cpp.yml)| [![Static Code - Cppcheck](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/cpp-check.yml)  [![Dynamic Code Analysis Valgrind](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/valgrind.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/valgrind.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/54fefb0885f6495ab4e1153c3183bc79)](https://www.codacy.com/gh/codemonk-007/LnT_Mini-Project1/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=codemonk-007/LnT_Mini-Project1&amp;utm_campaign=Badge_Grade)| [![Unit-Testing Unity](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/unity.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml/badge.svg)](https://github.com/codemonk-007/LnT_Mini-Project1/actions/workflows/gir_inspect.yml)|
 
